@@ -1,0 +1,80 @@
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;	
+}
+body{
+	margin:auto;
+	width:900px;
+}
+a{
+	text-decoration:none;
+	color:#FFF;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+
+#top{
+	height:100px;
+	text-align:center;
+	line-height:100px;
+	background:#09C;
+	
+}
+
+#menu{
+	height:30px;
+	background:#09C;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#menu li{
+	list-style:none;
+	float:left;
+	line-height:30px;
+	border-right:1px solid #FFF;
+	padding-right: 26.5px;
+
+		
+}
+#menu li a{
+	padding: 10px 20px 5px 20px;	
+}
+#wrapper{
+	margin:10px auto 10px; 
+}
+#wrapper table{
+	border-collapse:collapse;
+	width:900px;
+	text-align:center;
+}
+#wrapper table tr{
+	border:1px solid  #09C;	
+}
+#wrapper table td{
+	border:1px solid #999;
+	line-height:20px;
+	color:#666;
+}
+
+#wrapper2 table{
+	margin:10px 20px;	
+}
+#wrapper2 table tr{
+	line-height:30px;
+}
+#wrapper2 table input{
+	padding:2px;	
+}
+
+#bottom{
+height:40px;
+background:#09C;
+text-align:center;
+line-height:40px;
+color:#FFF;
+margin-top:20px;	
+}
